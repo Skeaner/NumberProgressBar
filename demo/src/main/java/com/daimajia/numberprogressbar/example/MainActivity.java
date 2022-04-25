@@ -1,7 +1,6 @@
 package com.daimajia.numberprogressbar.example;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -12,8 +11,9 @@ import com.daimajia.numberprogressbar.OnProgressBarListener;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends ActionBarActivity implements OnProgressBarListener {
+public class MainActivity extends AppCompatActivity implements OnProgressBarListener {
     private Timer timer;
 
     private NumberProgressBar bnp;
